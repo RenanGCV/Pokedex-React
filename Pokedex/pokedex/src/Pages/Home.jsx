@@ -1,7 +1,10 @@
 import React from 'react'
+import NavBar from '../Components/Navbar/Index'
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <NavBar />
+    </div>
   )
 }
